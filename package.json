@@ -23,7 +23,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "commit":"git-cz",
+    "commit": "git-cz",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -49,11 +49,17 @@
     "@types/styled-components": "^5.1.7",
     "axios-mock-adapter": "^1.19.0",
     "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "3.3.0",
     "json-server": "^0.16.3"
   },
   "eslintConfig": {
     "extends": [
       "react-app"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
